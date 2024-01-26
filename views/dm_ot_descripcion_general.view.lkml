@@ -27,7 +27,7 @@ view: dm_ot_descripcion_general {
     type: average
     sql: ${anio} ;;  }
   measure: valor {
-    type: average
+    type: sum
     sql: ${dato_numerico} ;;  }
 
 
