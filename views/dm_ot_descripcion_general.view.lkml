@@ -26,6 +26,10 @@ view: dm_ot_descripcion_general {
   measure: average_anio {
     type: average
     sql: ${anio} ;;  }
+  measure: valor {
+    type: average
+    sql: ${dato_numerico} ;;  }
+
 
   dimension: codigo_departamento {
     type: string
