@@ -26,3 +26,4 @@ persist_with: observatorio_territorial_default_datagroup
 # Each joined view also needs to define a primary key.
 
 explore: dm_ot_descripcion_general {}
+explore: poblacion_total {}
